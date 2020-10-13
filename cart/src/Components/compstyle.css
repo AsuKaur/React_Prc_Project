@@ -1,0 +1,49 @@
+
+
+.text {
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.nav {
+    width: 100vw;
+    height: 10vw;
+    background-color: yellow;
+    font-size: calc(5px + 1vw);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: black;
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0;
+    align-content: space-between;
+}
+
+.navitem{
+    padding:0.5rem 1rem;
+    text-align: center;
+}
+
+@media(min-width:1000px) {
+
+
+    .nav {
+        height: 100px;
+        font-size: calc(2px+1vw);
+
+    }
+
+}
+
+@media(min-width:1500px) {
+
+
+    .nav {
+        font-size: calc(1vw);
+
+    }
+
+}
