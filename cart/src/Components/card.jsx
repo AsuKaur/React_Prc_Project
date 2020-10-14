@@ -28,7 +28,7 @@ class Card extends Component {
             {this.state.pdt.map((pdt)=>
                 <div className='card' key={pdt.id}>
                     <Items key={pdt.id} {...pdt} onDelete={()=>this.removeCard(pdt.id)}></Items>
-                    {console.log(pdt.id)}
+                    
                 </div>
                 
             )}
