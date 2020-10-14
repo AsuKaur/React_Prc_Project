@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Logo = () => {
-     const url='.../public/Images/logo.png';
+    // const url=;
     return (  <div className='logo'>
-        <img src={url} alt='Logo'></img>
+        <img src='../../public/Images/logo.png' alt='Logo'></img>
         </div> );
 }
  

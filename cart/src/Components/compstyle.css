@@ -1,5 +1,3 @@
-
-
 .text {
     font-size: calc(10px + 2vmin);
     color: white;
@@ -8,37 +6,86 @@
 .nav {
     width: 100vw;
     height: 10vw;
-    background-color: yellow;
+    background-color: whitesmoke;
     font-size: calc(5px + 1vw);
     display: grid;
     grid-template-columns: 1fr 1fr;
     color: black;
+    font-weight: normal;
 }
 
-.navbar{
+.navbar {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 0;
     align-content: space-between;
 }
 
-.navitem{
-    padding:0.5rem 1rem;
+.navitem {
+    
     text-align: center;
 }
 
-.card{
+.card {
     border-radius: 1px;
-    margin:2vw;
-    padding: 2vw;
+    margin: 5vw;
+    padding: 2%;
     text-align: center;
     background-color: blueviolet;
-    
+
 }
 
-.item{
+.item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.inner{
+    width: 75%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+}
+
+.itemimg {
+    height:auto;
+    width: 90%;
+    margin: auto;
+
+}
+.itemimage{
+    width:25%;
+    margin: 0rem !important;
+    background-color: aquamarine;
+    padding-top: 0%;
+
+}
+.del {
+    background-color: wheat;
+    border-radius: 5px;
+    border-width: 0px;
+    padding: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.btn {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    padding: 5%;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.item>div {
+    align-content: center;
+    margin: auto;
+}
+
+.inner>div{
+    padding: 0%;
 }
 
 @media(min-width:1000px) {

@@ -1,13 +1,15 @@
 .main {
   text-align: center;
-  background-color: blue;
+  background-color: #282c34;
 }
 
 .logo {
   height: 8vw;
   pointer-events: none;
+  float: left;
 
 }
+
 /*
 @media (prefers-reduced-motion: no-preference) {
   .logo {
@@ -28,11 +30,14 @@
 .text {
   font-size: calc(10px + 2vmin);
   color: white;
+  font-weight: normal;
 }
 
 .link {
   color: #61dafb;
 }
+
+
 /*
 @keyframes logo-spin {
   from {
