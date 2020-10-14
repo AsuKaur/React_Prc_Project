@@ -27,6 +27,20 @@
     text-align: center;
 }
 
+.card{
+    border-radius: 1px;
+    margin:2vw;
+    padding: 2vw;
+    text-align: center;
+    background-color: blueviolet;
+    
+}
+
+.item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 @media(min-width:1000px) {
 
 

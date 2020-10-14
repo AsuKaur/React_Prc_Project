@@ -1,0 +1,23 @@
+export const data=[
+    {
+        id:1,
+        img:'',
+    name:'Item1',
+    rate:89,
+    amt:1,
+    },
+    {
+        id:2,
+        img:'',
+    name:'Item2',
+    rate:89,
+    amt:1,
+    },
+    {
+        id:3,
+    img:'',
+    name:'Item3',
+    rate:89,
+    amt:1,
+    }
+];
