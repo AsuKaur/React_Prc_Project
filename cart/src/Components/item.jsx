@@ -23,38 +23,12 @@ class Items extends Component {
         
         this.setState({amt:this.state.amt-1});        
         this.setState({rate:this.props.rate*(this.state.amt-1)});
+        if(this.state.amt<=0){
+            this.setState({amt:0});             
+            this.setState({rate:0}); 
+        }
        
     }
-/*
-    const increase=()=>{
-        amt=amt+1;
-        rate=props.rate*(amt+1);
-    }
-    
-    const decrease=()=>{
-        
-        amt=amt-1;        
-        rate=props.rate*(amt-1);
-       
-    }
-   
-        return ( <React.Fragment>
-        <div className='item'>
-        <div><img src={img} alt='Img'></img>
-        </div>
-        <div>
-            <h1 className='text'>{name}</h1>
-            <button type='button' onClick={increase}>+</button>
-            {amt}            
-            <button type='button' onClick={decrease}>-</button>
-
-        </div>
-        <div><h1 className='text'>{rate}</h1>
-        <button type='button' onClick={props.onDelete}>Delete</button>
-        </div>
-        </div>
-        </React.Fragment> );
-    */
 
      render() { 
         return ( <React.Fragment>

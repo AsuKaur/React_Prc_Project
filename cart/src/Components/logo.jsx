@@ -3,7 +3,7 @@ import React from 'react';
 const Logo = () => {
     // const url=;
     return (  <div className='logo'>
-        <img src='../../public/Images/logo.png' alt='Logo'></img>
+        <h1 className='navitem'>Let's Shop</h1>
         </div> );
 }
  

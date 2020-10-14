@@ -1,12 +1,17 @@
+body {
+
+  background-color: #282c34;
+}
+
 .main {
   text-align: center;
-  background-color: #282c34;
 }
 
 .logo {
   height: 8vw;
   pointer-events: none;
-  float: left;
+  text-align: left;
+  padding-left: 0%;
 
 }
 
