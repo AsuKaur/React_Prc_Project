@@ -1,13 +1,15 @@
 import React from "react";
 import "../../App.css";
-import Card from "../Card";
+import "../Hero.css";
 import Hero from "../Hero";
+import Sub from "../Sub";
 
 function Home() {
   return (
     <>
       <Hero />
-      <Card />
+      <Sub />
+      <div className="hero-container"></div>
     </>
   );
 }
