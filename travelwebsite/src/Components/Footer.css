@@ -34,7 +34,7 @@
   font-size: 20px;
 }
 
-.footer-input {
+.inputfield {
   padding: 8px 20px;
   border-radius: 2px;
   margin-right: 10px;
@@ -42,7 +42,7 @@
   border: none;
   font-size: 18px;
   margin-bottom: 16px;
-  border: 1px solid #fff;
+  border: 1px solid #242424;
 }
 
 .footer-links {

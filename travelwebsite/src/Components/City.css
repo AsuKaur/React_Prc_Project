@@ -6,7 +6,14 @@
 h1 {
   text-align: center;
 }
-
+.form-element {
+  margin-top: 1rem !important;
+}
+.form {
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
 .cards__container {
   display: flex;
   flex-flow: column;
